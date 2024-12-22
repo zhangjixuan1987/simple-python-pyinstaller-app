@@ -5,13 +5,13 @@ the calc.py library's 'add2' function.
 
 import sys
 import calc
-
+# 我的代码 张冀旋
 argnumbers = len(sys.argv) - 1
 
 if argnumbers == 2 :
-    print("")
+    print("#")
     print("The result is " + str(calc.add2(str(sys.argv[1]), str(sys.argv[2]))))
-    print("")
+    print("#")
     sys.exit(0)
 
 if argnumbers != 2 :
